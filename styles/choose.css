@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+body{
+    background: brown;
+}
+.header{
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.756);
+    text-align: center;
+    margin-top: 10px;
+}
+.Category {
+    font-size: 70px;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    /* place-items: center; */
+    min-height: 30em;
+    text-align: center;
+    cursor: pointer;
+    padding: 9px 10px;
+    gap: 1rem;
+}
+ .words{
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    cursor: pointer;
+}
+.history{
+    background-color: rgb(36, 237, 53);
+    width: 70%;
+
+}
+.words a {
+    text-decoration: none;
+}
+
+.music{
+    background-color: gold;
+    width: 70%;
+}
+.sport{
+    background-color: blue;
+    width: 70%;
+}
+.medicine{
+    background-color: blueviolet;
+    width: 70%;
+} 
+.log{
+    text-align: center;
+}
+.log button{
+    background-color: gold;
+    padding: 4px 3px;
+}

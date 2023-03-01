@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.register-container{
+    border: 2px solid brown;
+    width: 50%;
+    background:white;
+    margin: auto;
+    padding: 30px 2px;
+    margin-top: 10%;
+    height: 20rem;
+}
+.form-group{
+    display: grid;
+    width:50% ;
+    margin: auto;
+}
+/* .hide{
+    display: none;
+} */
+.register-container h4{
+    text-align: center;
+    margin-top: 20px;
+}
+form{
+    text-align: center;
+    padding: 20px 0;
+}
+ button{
+    width: 20%;
+    background: gold;
+    margin: 10px 0px;
+    
+}
+.bttn a{
+    text-decoration: none;
+    padding: 2px 3px;
+}

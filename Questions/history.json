@@ -1,0 +1,75 @@
+[
+    {
+        "question": "who is the first executive governor of Ekiti State?",
+        "answer": "Adeniyi  Adebayo" ,
+        "options": [
+            "Segun Oni",
+            "Ayodele Fayose",
+            "Adeniyi Adebayo",
+            "Kayode Fayemi"
+        ],
+        "id": 1
+    },
+
+    {
+        "question":"What do the following Acronyms stand for FRSC ?",
+        "answer":"Federal Road Safety Commission" ,
+        "options": [
+            "Federal Road for Safety Commission",
+            "Federal Road Safety Corps",
+            "Federal Road Safety Commission",
+            "Federal Road Safety Cooperation"
+        ],
+        "id": 2
+    },
+
+    {
+        "question": "NDA",
+        "answer": "Nigeria Defense Academy",
+        "options": [
+            "Niger Delta Association",
+            "Nigeria Dental Association",
+            "Nigeria drugs Academy",
+            "Nigeria Defense Academy"
+        ],
+        "id": 3
+    },
+
+    {
+        "question": "Who is the current Governor of Kebbi State",
+        "answer": "Abubakar Atiku Bagudu",
+        "options": [
+            "AbdulRahman AbdulRasaq",
+            "Abubakar Sani Bello",
+            "Abubakar Atiku Bagudu",
+            "mai Mala Buni"
+        ],
+        "id": 4
+    },
+
+    {
+        "question": "Who formed the first political party in Nigeria",
+        "answer": "Herbert Macaulay",
+        "options": [
+            "Olusegun Obasanjo",
+            "Muhammad Buhari",
+            "Herbert Macaulay",
+            "Nnamdi Azikiwe"
+        ],
+        "id": 5
+    },
+
+    {
+        "question": "Which woman gave Nigeria her name",
+        "answer": "Flora Shaw",
+        "options": [
+            "marry sliccosor",
+            "Jaye kuti",
+            "Flora Shaw",
+            "Lord Lugard"
+        ],
+        "id": 6
+    }
+    
+
+]

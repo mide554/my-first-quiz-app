@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/login.css">
+    <title>LOGIN FORM</title>
+    <script>
+        let token = localStorage.getItem('token')
+        if (token) {
+          window.location.replace('./choose.html')
+        }
+      </script>
+</head>
+
+
+<body>
+    
+    <div class="login-container hid">
+        <h4 class="login">Login Here</h4>
+        <form class="Login-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password"name="password" id="password" required>
+            </div>
+            <div class="form-group login-btn">
+                <button type="submit">Login</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="../scripts/utility.js"></script>
+    <script src="../scripts/login.js"></script>
+</body>
+</html>

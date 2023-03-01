@@ -1,0 +1,62 @@
+[
+
+    {
+        "question": "Which player scored the fastest hat-trick in the premier League",
+        "answer": "Sadio Mane",
+        "options": [
+            "Cristiano Ronaldo",
+            "Thieny Henry",
+            "Paul Pogba",
+            "Sadio Mane"
+        ],
+        "id": 1
+    },
+    {
+        "question": "who is the greatest footballer of all time",
+        "answer": "Lionel Messi",
+        "options": [
+            "Cristiano Ronaldo",
+            "kilian Mpappe",
+            "Ronaldiho",
+            "Lionel Messi"
+        ],
+        "id": 2
+    },
+
+    {
+        "question": "Liverpool have won six Champions Leagues and Manchester United have won three,but who are England's third most successful team in the competition with two titles?",
+        "answer": "Chelsea and Nottingham Forest",
+        "options": [
+            "Chelsea and Arsenal",
+            "Chelsea and Mancity",
+            "Chelsea and Nottingham forest",
+            "Eveton and Chelsea"
+        ],
+        "id": 3
+    },
+    {
+        "question": "who am i? i made my international debut for my Brazil in 1993 and scored in the game,and later played in two world cup final",
+        "answer": "Rivaldo",
+        "options": [
+            "Ronaldo",
+            "Neyma Desanto",
+            "Ronaldiho",
+            "Rivaldo"
+        ],
+        "id": 4
+    },
+
+    {
+        "question": "which club is sometimes referred to as FC Hollywood",
+        "answer": "Lionel Messi",
+        "options": [
+            "Real Madrid",
+            "Bayern Munich",
+            "Machester United",
+            "Liverpool Fc"
+        ],
+        "id": 5
+    }
+
+
+]

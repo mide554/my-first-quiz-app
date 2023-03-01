@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+body{
+    background: brown;
+}
+.header{
+    background: gold;
+    color: brown;
+    padding: 3px 20%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap :40px;
+
+}
+.question{
+    color: white;
+    font-size: 130px;
+    text-align: center;
+}
+
+.mark{
+    color:brown;
+    margin-top: -120px;
+    font-size: 60px;
+    text-align: center;
+}
+.quiztime {
+    font-size: 30px;
+    margin-top: 22px;
+    border: 2px solid white;
+    background: white;
+    color: brown;
+    width: 40%;
+    border-radius: 100%;
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+.quiz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.clock{
+    font-size: 30px;
+    margin: -110px 30%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.button{
+    margin-top: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn a{
+    text-decoration: none;
+}
+.btn{
+    border: 2px solid red;
+    background: white;
+    padding: 2px 3px;
+    text-align: center;
+    width: 20%;
+
+
+}
+ :hover.btn{
+    background-color: gold;
+    
+}
+.btn{
+    text-decoration: none;
+    color: brown;
+}

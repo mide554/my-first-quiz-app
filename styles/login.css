@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-container{
+    border: 2px solid red;
+    background: white;
+    width: 40%;
+    height: 20rem;
+    margin: auto;
+    text-align: center;    
+ }
+
+ .hid{
+    margin-top: 40px;
+    padding: 50px 20px;
+ }
+ 
+  .form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+ } 
+ .login{
+     text-align: center;
+     padding-top: 10px;
+ }
+ button{
+     width: 20%;
+     background: gold;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
+ .login-btn a{
+     text-decoration: none;
+     padding: 2px 3px;
+     text-align: center;
+ }

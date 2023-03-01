@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/choose.css">
+  <title>Select type of quiz</title>
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <h4>Choose Category</h4>
+    </div>
+  </header>
+
+  <div class="Category">
+    <div class="history" data-type="history">
+      <p class="icon">📝</p>
+      <p class="history-word words">HISTORY</p>
+    </div>
+
+    <div class="music box" data-type="music">
+      <p class="icon">🎵</p>
+      <p class="muisc-word words ">MUSIC</p>
+    </div>
+
+    <div class="sport box" data-type="sport">
+      <p class="icon">⚽</p>
+      <p class="words">SPORT</p>
+    </div>
+
+    <div class="medicine box" data-type="medicine">
+      <p>👨‍🍳</p>
+      <p class="words">MEDICINE</p>
+
+    </div>
+  </div>
+
+  <div class="log">
+
+    <button class="logout">Logout</button>
+
+  </div>
+  <script src="../scripts/utility.js"></script>
+  <script>
+    const historyBtn = document.querySelector('.history')
+    const musicBtn = document.querySelector('.music')
+    const sportBtn = document.querySelector('.sport')
+    const medicineBtn= document.querySelector('.medicine')
+
+    function handler(e) {
+      let selectedQuestion;
+      const questionType = e.target.parentNode.dataset.type
+      if(questionType === 'history'){
+        selectedQuestion = 'history'
+      }
+
+      if(questionType === 'music'){
+        selectedQuestion = 'music'
+      }
+      if(questionType === 'sport'){
+        selectedQuestion = 'sport'
+      }
+      if(questionType === 'medicine'){
+        selectedQuestion = 'medicine'
+      }
+      localStorage.setItem('selectedQuestion', selectedQuestion)
+      location.href = '../pages/quizquestion.html'
+    }
+
+    historyBtn.addEventListener('click',handler)
+    musicBtn.addEventListener('click', handler)
+    sportBtn.addEventListener('click', handler)
+    medicineBtn.addEventListener('click', handler)
+  </script>
+</body>
+
+</html>

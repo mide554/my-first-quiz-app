@@ -1,0 +1,71 @@
+[
+    
+        {
+            "question": "who was the very first American ldol winner?",
+            "answer": "Kelly Clarkson",
+            "options": [
+                "Kesha Larson",
+                "Kelly Clarkson",
+                "Jack Antonoff",
+                "Miley cyrus"
+            ],
+            "id": 1
+        },
+    
+        {
+            "question":"Who founded Motown records",
+            "answer": "Berry Gordy",
+            "options": [
+                "Kesha Larson",
+                "Rob Zombie",
+                "Berry Gordy",
+                "Tammi Terrell"
+            ],
+            "id": 2
+        },
+    
+        {
+            "question": "Tony tetuila sang which of these sang?",
+            "answer": "My Car",
+            "options": [
+                "Nfana ibaga",
+                "Oruka",
+                "My Car",
+                "You is the one"
+            ],
+            "id": 3
+        },
+
+        {
+            "question": "what year did Styl-Plus 'Olufunmi' came out?",
+            "answer": 2006,
+            "options": [
+                1999,
+                2010,
+                2006,
+                2009
+            ],
+            "id": 4
+        },
+        {
+            "question": "Tony tetuila sang which of these sang?",
+            "answer": "My Car",
+            "options": [
+                "Nfana ibaga",
+                "Oruka",
+                "My Car",
+                "You is the one"
+            ],
+            "id": 5
+        },{
+            "question": "What's the full name of 2face?",
+            "answer": "Innocent Ujah Idibia",
+            "options": [
+                "Innocent Nelson Idibia",
+                "Innocent Alexander Idibia",
+                "Innocent Ujah Idibia",
+                "Chibuzor Azubuike Idibia"
+            ],
+            "id": 6
+        }
+]
